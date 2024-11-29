@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"54c0add8171b52b2","type":"file","file":"LiminalConsultingWeb3/media/ExistentialFriction.gif","x":-413,"y":-1160,"width":400,"height":225},
+		{"id":"93a6cb2225989ea3","type":"file","file":"LiminalConsultingWeb3/media/Web2Disintegrating.gif","x":-413,"y":-860,"width":400,"height":225},
+		{"id":"28c0329e60d36377","type":"file","file":"LiminalConsultingWeb3/media/Web3Emerging.gif","x":-413,"y":-560,"width":400,"height":225},
+		{"id":"804ede72596a502a","type":"file","file":"LiminalConsultingWeb3/media/CentralisedUnderstanding.gif","x":-413,"y":-260,"width":400,"height":225},
+		{"id":"53393dd8cd1fdae2","type":"file","file":"LiminalConsultingWeb3/media/VitalikQuote.gif","x":-413,"y":40,"width":400,"height":225},
+		{"id":"df7604f695995daa","type":"file","file":"LiminalConsultingWeb3/media/ClarityBehindComplexity.gif","x":-413,"y":340,"width":400,"height":225},
+		{"id":"b7b75acb83510ca0","type":"file","file":"LiminalConsultingWeb3/media/UniversalLanguage.gif","x":-413,"y":640,"width":400,"height":225},
+		{"id":"aeec4ae913dd4567","type":"file","file":"LiminalConsultingWeb3/media/UniversalMovement.gif","x":-413,"y":940,"width":400,"height":225},
+		{"id":"91ab9b3ea2d7cc87","type":"file","file":"LiminalConsultingWeb3/media/DecentralisingUnderstanding.gif","x":-413,"y":1240,"width":400,"height":225},
+		{"id":"a711852218380f67","type":"file","file":"LiminalConsultingWeb3/media/David.png","x":-413,"y":1540,"width":400,"height":400},
+		{"id":"ce2b25e33c8225d1","type":"text","text":"As most of us can feel by now we are living through an unprecedented period in human history\n\nNever before have our collective challenges seemed more daunting\n\nAnd our dreams of a more beautiful world seemed more within reach","x":80,"y":-1160,"width":400,"height":225},
+		{"id":"d3d000cff7e4f4f9","type":"text","text":"As the era of centralisation is coming to an end, with our top down control structures slowly but surely disintegrating under their own weight","x":80,"y":-860,"width":400,"height":225},
+		{"id":"0aff1c5fb46ea627","type":"text","text":"A new culture has emerged around the idea of Web3\n\nSeeking to direct this enormous potential towards a more beautiful and decentralised future","x":80,"y":-560,"width":400,"height":225},
+		{"id":"fdccf8ae9aaeac4c","type":"text","text":"However, as of now the understanding of how these decentralised technologies this collective genius is creating actually work remains centralised to a comparably small class of developers\n\nConstituting one of the most crucial remaining bottlenecks for building a more resilient and decentralised future\n\nVitalik put it best:","x":80,"y":-260,"width":400,"height":225},
+		{"id":"cef52e2a5b776a44","type":"text","text":"So how do we address this issue?\n\nThe by far most effective means for spreading the light of understanding are visual metaphors\n\nSymbols that help people connect the dots and perceive the clarity behind the complexity","x":80,"y":340,"width":400,"height":225},
+		{"id":"3bf2224bdbadb48c","type":"text","text":"A visual way of communicating ideas, much more fundamental than the many different languages spoken around the world today","x":80,"y":640,"width":400,"height":225},
+		{"id":"61c67ef92cff6277","type":"text","text":"A universal language for a universal movement\n\nnot limited by superficial differences in location or cultural background\n\nBut united by the greater cause of serving all of mankind","x":80,"y":940,"width":400,"height":225},
+		{"id":"64f84b3ac1dc6e69","type":"text","text":"By upgrading our capacity to communicate these profound ideas with clarity we can effectively widen the circle of understanding and thus unleash this movements full potential in bringing about the more beautiful world our hearts know is possible","x":80,"y":1240,"width":400,"height":225},
+		{"id":"1e7b759dde934ad0","type":"text","text":"If you are holding a piece of this puzzle that has the potential to change the world but as of now is not being widely understood as such\n\nI would love to help you communicate the unique innovation you are bringing into this space so it can naturally attract the minds and resources that will help you make it a reality","x":80,"y":1540,"width":400,"height":225}
+	],
+	"edges":[
+		{"id":"44fe373fd34d2c99","fromNode":"54c0add8171b52b2","fromSide":"bottom","toNode":"93a6cb2225989ea3","toSide":"top"},
+		{"id":"0abc5571cec6a958","fromNode":"93a6cb2225989ea3","fromSide":"bottom","toNode":"28c0329e60d36377","toSide":"top"},
+		{"id":"e60835176523dbf2","fromNode":"28c0329e60d36377","fromSide":"bottom","toNode":"804ede72596a502a","toSide":"top"},
+		{"id":"389fb254b9268ee0","fromNode":"804ede72596a502a","fromSide":"bottom","toNode":"53393dd8cd1fdae2","toSide":"top"},
+		{"id":"daf5ff20a89f746f","fromNode":"53393dd8cd1fdae2","fromSide":"bottom","toNode":"df7604f695995daa","toSide":"top"},
+		{"id":"3c2de200ff57ab65","fromNode":"df7604f695995daa","fromSide":"bottom","toNode":"b7b75acb83510ca0","toSide":"top"},
+		{"id":"517f7be5ddecae30","fromNode":"b7b75acb83510ca0","fromSide":"bottom","toNode":"aeec4ae913dd4567","toSide":"top"},
+		{"id":"8bec2c19b04863db","fromNode":"aeec4ae913dd4567","fromSide":"bottom","toNode":"91ab9b3ea2d7cc87","toSide":"top"},
+		{"id":"bc69e18cb3c978cf","fromNode":"91ab9b3ea2d7cc87","fromSide":"bottom","toNode":"a711852218380f67","toSide":"top"},
+		{"id":"06639b29bdf32694","fromNode":"54c0add8171b52b2","fromSide":"right","toNode":"ce2b25e33c8225d1","toSide":"left","toEnd":"none"},
+		{"id":"088ce345219d91cc","fromNode":"93a6cb2225989ea3","fromSide":"right","toNode":"d3d000cff7e4f4f9","toSide":"left","toEnd":"none"},
+		{"id":"029fd73fa7ffedb2","fromNode":"28c0329e60d36377","fromSide":"right","toNode":"0aff1c5fb46ea627","toSide":"left","toEnd":"none"},
+		{"id":"08837c458d9864c7","fromNode":"804ede72596a502a","fromSide":"right","toNode":"fdccf8ae9aaeac4c","toSide":"left","toEnd":"none"},
+		{"id":"3bc2fe00b26a7bf8","fromNode":"df7604f695995daa","fromSide":"right","toNode":"cef52e2a5b776a44","toSide":"left","toEnd":"none"},
+		{"id":"6ca915dc9daa24f1","fromNode":"b7b75acb83510ca0","fromSide":"right","toNode":"3bf2224bdbadb48c","toSide":"left","toEnd":"none"},
+		{"id":"e4be5b0430e83f61","fromNode":"aeec4ae913dd4567","fromSide":"right","toNode":"61c67ef92cff6277","toSide":"left","toEnd":"none"},
+		{"id":"45d3b257bd9268a9","fromNode":"91ab9b3ea2d7cc87","fromSide":"right","toNode":"64f84b3ac1dc6e69","toSide":"left","toEnd":"none"},
+		{"id":"6e346e7f6aa50246","fromNode":"a711852218380f67","fromSide":"right","toNode":"1e7b759dde934ad0","toSide":"left","toEnd":"none"}
+	]
+}
