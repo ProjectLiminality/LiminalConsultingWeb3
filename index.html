@@ -5,9 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Linear Flow Canvas</title>
   <link rel="stylesheet" href="DreamSongUI/styles.css">
+  <link rel="stylesheet" href="examples/carousel.css">
 </head>
 <body>
   <div id="canvas-container"></div>
+  
+  <section class="examples-section">
+    <h2>Examples</h2>
+    <div class="carousel-container">
+      <button class="carousel-button prev">&lt;</button>
+      <div class="carousel">
+        <div class="carousel-item">
+          <img src="media/CentralisedUnderstanding.gif" alt="Centralised Understanding">
+        </div>
+        <div class="carousel-item">
+          <img src="media/ClarityBehindComplexity.gif" alt="Clarity Behind Complexity">
+        </div>
+        <div class="carousel-item">
+          <img src="media/DecentralisingUnderstanding.gif" alt="Decentralising Understanding">
+        </div>
+        <!-- Add more carousel items as needed -->
+      </div>
+      <button class="carousel-button next">&gt;</button>
+    </div>
+  </section>
+
   <script src="DreamSongUI/linearFlowCanvas.js"></script>
+  <script src="examples/carousel.js"></script>
 </body>
 </html>
