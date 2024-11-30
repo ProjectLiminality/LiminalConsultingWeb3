@@ -1,6 +1,15 @@
+#canvas-container {
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+
 .examples-section {
   padding: 2rem;
   text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  background: white;
 }
 
 .examples-section h2 {
