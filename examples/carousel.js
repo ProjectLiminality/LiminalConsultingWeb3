@@ -1,16 +1,68 @@
 class Carousel {
-  constructor(container) {
-    this.container = container;
-    this.carousel = container.querySelector('.carousel');
-    this.items = container.querySelectorAll('.carousel-item');
-    this.prevButton = container.querySelector('.carousel-button.prev');
-    this.nextButton = container.querySelector('.carousel-button.next');
+  constructor(containerId) {
+    this.mediaFiles = [
+      { src: 'media/CentralisedUnderstanding.gif', alt: 'Centralised Understanding' },
+      { src: 'media/ClarityBehindComplexity.gif', alt: 'Clarity Behind Complexity' },
+      { src: 'media/DecentralisingUnderstanding.gif', alt: 'Decentralising Understanding' }
+    ];
+    
+    this.container = document.getElementById(containerId);
+    this.createCarouselStructure();
+    
+    this.carousel = this.container.querySelector('.carousel');
+    this.items = this.container.querySelectorAll('.carousel-item');
+    this.prevButton = this.container.querySelector('.carousel-button.prev');
+    this.nextButton = this.container.querySelector('.carousel-button.next');
     
     this.currentIndex = 0;
     this.totalItems = this.items.length;
     
     this.setupEventListeners();
     this.startAutoPlay();
+  }
+
+  createCarouselStructure() {
+    const section = document.createElement('section');
+    section.className = 'examples-section';
+    
+    const title = document.createElement('h2');
+    title.textContent = 'Examples';
+    
+    const carouselContainer = document.createElement('div');
+    carouselContainer.className = 'carousel-container';
+    
+    const prevButton = document.createElement('button');
+    prevButton.className = 'carousel-button prev';
+    prevButton.innerHTML = '&lt;';
+    
+    const nextButton = document.createElement('button');
+    nextButton.className = 'carousel-button next';
+    nextButton.innerHTML = '&gt;';
+    
+    const carousel = document.createElement('div');
+    carousel.className = 'carousel';
+    
+    // Create carousel items
+    this.mediaFiles.forEach(file => {
+      const item = document.createElement('div');
+      item.className = 'carousel-item';
+      
+      const img = document.createElement('img');
+      img.src = file.src;
+      img.alt = file.alt;
+      
+      item.appendChild(img);
+      carousel.appendChild(item);
+    });
+    
+    carouselContainer.appendChild(prevButton);
+    carouselContainer.appendChild(carousel);
+    carouselContainer.appendChild(nextButton);
+    
+    section.appendChild(title);
+    section.appendChild(carouselContainer);
+    
+    this.container.appendChild(section);
   }
 
   setupEventListeners() {
@@ -40,8 +92,5 @@ class Carousel {
 
 // Initialize carousel when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-  const carouselContainer = document.querySelector('.carousel-container');
-  if (carouselContainer) {
-    new Carousel(carouselContainer);
-  }
+  new Carousel('examples-container');
 });
