@@ -55,11 +55,20 @@ class Carousel {
       const item = document.createElement('div');
       item.className = 'carousel-item';
       
+      const mediaContainer = document.createElement('div');
+      mediaContainer.className = 'media-container';
+      
       const img = document.createElement('img');
       img.src = file.src;
       img.alt = file.alt;
       
-      item.appendChild(img);
+      const title = document.createElement('p');
+      title.className = 'media-title';
+      title.textContent = file.alt;
+      
+      mediaContainer.appendChild(img);
+      mediaContainer.appendChild(title);
+      item.appendChild(mediaContainer);
       carousel.appendChild(item);
     });
     
