@@ -93,9 +93,19 @@ class Carousel {
     
     // Update opacity classes
     this.items.forEach((item, index) => {
-      item.classList.remove('active');
+      item.classList.remove('active', 'prev', 'next');
     });
+    
+    // Set active item
     this.items[this.currentIndex].classList.add('active');
+    
+    // Set prev item
+    const prevIndex = (this.currentIndex - 1 + this.totalItems) % this.totalItems;
+    this.items[prevIndex].classList.add('prev');
+    
+    // Set next item
+    const nextIndex = (this.currentIndex + 1) % this.totalItems;
+    this.items[nextIndex].classList.add('next');
   }
 
   next() {
