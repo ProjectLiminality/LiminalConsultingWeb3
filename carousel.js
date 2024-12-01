@@ -1,9 +1,17 @@
 class Carousel {
   constructor(containerId) {
     this.mediaFiles = [
-      { src: 'media/CentralisedUnderstanding.gif', alt: 'Centralised Understanding' },
-      { src: 'media/ClarityBehindComplexity.gif', alt: 'Clarity Behind Complexity' },
-      { src: 'media/DecentralisingUnderstanding.gif', alt: 'Decentralising Understanding' }
+      { src: 'media/examples/CentralizationDecentralizationCycle.gif', alt: 'Centralization Decentralization Cycle' },
+      { src: 'media/examples/ComplicatedVsComplex.png', alt: 'Complicated Vs Complex' },
+      { src: 'media/examples/FourthTurningPendulum.gif', alt: 'Fourth Turning Pendulum' },
+      { src: 'media/examples/ManMachineNature.gif', alt: 'Man Machine Nature' },
+      { src: 'media/examples/NoosphereAndBiosphere.gif', alt: 'Noosphere And Biosphere' },
+      { src: 'media/examples/StoryMediatesRelationship.mp4', alt: 'Story Mediates Relationship' },
+      { src: 'media/examples/StoryOfEmergence.gif', alt: 'Story Of Emergence' },
+      { src: 'media/examples/Synergy.gif', alt: 'Synergy' },
+      { src: 'media/examples/TaylorExpansion.gif', alt: 'Taylor Expansion' },
+      { src: 'media/examples/TheGardenAndTheMachine_fps30.0.mp4', alt: 'The Garden And The Machine' },
+      { src: 'media/examples/TheSpiral.gif', alt: 'The Spiral' }
     ];
     
     this.container = document.getElementById(containerId);
