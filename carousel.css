@@ -20,7 +20,7 @@
 
 .carousel-container {
   position: relative;
-  max-width: 800px;
+  max-width: 1600px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -28,13 +28,20 @@
 .carousel {
   display: flex;
   transition: transform 0.5s ease-in-out;
+  transform: translateX(-33.33%);
 }
 
 .carousel-item {
-  min-width: 100%;
+  min-width: 33.33%;
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0.5;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-item.active {
+  opacity: 1;
 }
 
 .media-container {

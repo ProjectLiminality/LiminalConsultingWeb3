@@ -88,8 +88,14 @@ class Carousel {
   }
 
   updateCarousel() {
-    const offset = -this.currentIndex * 100;
+    const offset = -(this.currentIndex * 33.33 + 33.33);
     this.carousel.style.transform = `translateX(${offset}%)`;
+    
+    // Update opacity classes
+    this.items.forEach((item, index) => {
+      item.classList.remove('active');
+    });
+    this.items[this.currentIndex].classList.add('active');
   }
 
   next() {
