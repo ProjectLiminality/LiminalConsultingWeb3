@@ -9,13 +9,13 @@
   text-align: center;
   width: 100%;
   min-height: 100vh;
-  background: white;
+  background: black;
 }
 
 .examples-section h2 {
   margin-bottom: 2rem;
   font-size: 2rem;
-  color: #333;
+  color: white;
 }
 
 .carousel-container {
