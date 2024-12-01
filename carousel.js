@@ -91,13 +91,17 @@ class Carousel {
     const offset = -(this.currentIndex * 33.33 + 33.33);
     this.carousel.style.transform = `translateX(${offset}%)`;
     
-    // Update opacity classes
-    this.items.forEach((item, index) => {
+    // Reset all items
+    this.items.forEach((item) => {
       item.classList.remove('active', 'prev', 'next');
+      item.style.transform = 'scale(0.5)';
+      item.style.opacity = '0.5';
     });
     
     // Set active item
     this.items[this.currentIndex].classList.add('active');
+    this.items[this.currentIndex].style.transform = 'scale(1)';
+    this.items[this.currentIndex].style.opacity = '1';
     
     // Set prev item
     const prevIndex = (this.currentIndex - 1 + this.totalItems) % this.totalItems;
