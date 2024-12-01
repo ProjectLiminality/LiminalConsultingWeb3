@@ -94,7 +94,7 @@ class Carousel {
   }
 
   startAutoPlay() {
-    setInterval(() => this.next(), 5000); // Change slide every 5 seconds
+    setInterval(() => this.next(), 10000); // Change slide every 10 seconds
   }
 }
 
