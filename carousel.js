@@ -88,7 +88,7 @@ class Carousel {
   }
 
   updateCarousel() {
-    const offset = -(this.currentIndex * 33.33 + 33.33);
+    const offset = -(this.currentIndex * 33.33);  // Removed the extra offset
     this.carousel.style.transform = `translateX(${offset}%)`;
     
     // Reset all items
@@ -98,17 +98,18 @@ class Carousel {
       item.style.opacity = '0.5';
     });
     
-    // Set active item
-    this.items[this.currentIndex].classList.add('active');
-    this.items[this.currentIndex].style.transform = 'scale(1)';
-    this.items[this.currentIndex].style.opacity = '1';
+    // Set active item (shifted two positions right)
+    const activeIndex = (this.currentIndex + 1) % this.totalItems;
+    this.items[activeIndex].classList.add('active');
+    this.items[activeIndex].style.transform = 'scale(1)';
+    this.items[activeIndex].style.opacity = '1';
     
     // Set prev item
-    const prevIndex = (this.currentIndex - 1 + this.totalItems) % this.totalItems;
+    const prevIndex = activeIndex === 0 ? this.totalItems - 1 : activeIndex - 1;
     this.items[prevIndex].classList.add('prev');
     
     // Set next item
-    const nextIndex = (this.currentIndex + 1) % this.totalItems;
+    const nextIndex = (activeIndex + 1) % this.totalItems;
     this.items[nextIndex].classList.add('next');
   }
 
