@@ -55,12 +55,7 @@ class TestimonialsCarousel {
       img.src = file.src;
       img.alt = file.alt;
       
-      const title = document.createElement('p');
-      title.className = 'testimonials-media-title';
-      title.textContent = file.alt;
-      
       mediaContainer.appendChild(img);
-      mediaContainer.appendChild(title);
       item.appendChild(mediaContainer);
       carousel.appendChild(item);
     });
