@@ -1,9 +1,9 @@
 class TestimonialsCarousel {
   constructor(containerId) {
     this.mediaFiles = [
-      { src: 'media/testimonials/testimonial1.png', alt: 'Testimonial 1' },
-      { src: 'media/testimonials/testimonial2.png', alt: 'Testimonial 2' },
-      { src: 'media/testimonials/testimonial3.png', alt: 'Testimonial 3' }
+      { src: 'media/testimonials/TestimonialDavid.png', alt: 'Testimonial 1' },
+      { src: 'media/testimonials/TestimonialDavid.png', alt: 'Testimonial 2' },
+      { src: 'media/testimonials/TestimonialDavid.png', alt: 'Testimonial 3' }
       // Add more testimonials as needed
     ];
     
