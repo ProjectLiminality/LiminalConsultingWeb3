@@ -14,6 +14,34 @@
       padding: 0 20px;
       box-sizing: border-box;
     }
+    #contact-section {
+      text-align: center;
+      padding: 4rem 0;
+      background: black;
+      color: white;
+      min-height: 50vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    #contact-section h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    
+    #contact-section a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: opacity 0.3s ease;
+    }
+    
+    #contact-section a:hover {
+      opacity: 0.8;
+    }
+
     @media (max-width: 768px) {
       .main-wrapper {
         padding: 0 10px;
@@ -26,6 +54,10 @@
     <div id="canvas-container"></div>
     <div id="examples-container"></div>
     <div id="testimonials-container"></div>
+    <div id="contact-section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:consulting@liminality.space">consulting@liminality.space</a></p>
+    </div>
   </div>
 
   <script src="DreamSongUI/linearFlowCanvas.js"></script>
