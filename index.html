@@ -6,10 +6,25 @@
   <title>Liminal Consulting Web3</title>
   <link rel="stylesheet" href="DreamSongUI/styles.css">
   <link rel="stylesheet" href="carousel.css">
+  <style>
+    .main-wrapper {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+    @media (max-width: 768px) {
+      .main-wrapper {
+        padding: 0 10px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <div id="canvas-container"></div>
-  <div id="examples-container"></div>
+  <div class="main-wrapper">
+    <div id="canvas-container"></div>
+    <div id="examples-container"></div>
+  </div>
 
   <script src="DreamSongUI/linearFlowCanvas.js"></script>
   <script src="carousel.js"></script>
