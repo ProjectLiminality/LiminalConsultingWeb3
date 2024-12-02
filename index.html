@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="DreamSongUI/styles.css">
   <link rel="stylesheet" href="carousel.css">
   <link rel="stylesheet" href="testimonials.css">
+  <script src="DreamSongUI/linearFlowCanvas.js" defer></script>
+  <script src="carousel.js" defer></script>
+  <script src="testimonials.js" defer></script>
   <style>
     .main-wrapper {
       max-width: 1200px;
@@ -15,6 +18,20 @@
       box-sizing: border-box;
       display: flex;
       flex-direction: column;
+      position: relative;
+      z-index: 1;
+    }
+    #canvas-container {
+      order: 1;
+    }
+    #examples-container {
+      order: 2;
+    }
+    #testimonials-container {
+      order: 3;
+    }
+    #contact-section {
+      order: 4;
     }
     #contact-section {
       text-align: center;
@@ -62,8 +79,5 @@
     </div>
   </div>
 
-  <script src="DreamSongUI/linearFlowCanvas.js"></script>
-  <script src="carousel.js"></script>
-  <script src="testimonials.js"></script>
 </body>
 </html>
