@@ -2,21 +2,76 @@
   "LiminalConsultingWeb3.sublime-project": null,
   "index.html": null,
   "LICENSE": null,
+  "directory-listing.json": null,
+  "carousel.css": null,
   "LiminalConsultingWeb3.sublime-workspace": null,
   "DreamSong.canvas": null,
+  "carousel.js": null,
   "LiminalConsultingWeb3Website.key": null,
-  "media": {
-    "David.png": null,
-    "CentralisedUnderstanding.gif": null,
-    "VitalikQuote.gif": null,
-    "Web3Emerging.gif": null,
-    "UniversalLanguage.gif": null,
-    "ClarityBehindComplexity.gif": null,
-    "UniversalMovement.gif": null,
-    "Web2Disintegrating.gif": null,
-    "ExistentialFriction.gif": null,
-    "DecentralisingUnderstanding.gif": null
+  "Video": {
+    "CentralisedUnderstandingIdleMovement.m4v": null,
+    "LiminalConsultingWeb3.m4v": null,
+    "LiminalConsultingWeb3Final.mov": null,
+    "LiminalConsultingWeb3Video.key": null,
+    "LiminalConsultingWeb3.fcpxmld": {},
+    "Audio": {},
+    "Video/LiminalConsultingWeb3.fcpxmld": {
+      "Info.fcpxml": null,
+      "Video/Audio": {
+        "05_constituting_one_of.m4a": null,
+        "03_as_the_era_of.m4a": null,
+        "09_symbols_that_help.m4a": null,
+        "14_I_would_love.m4a": null,
+        "07_if_the_thing.m4a": null,
+        "Vincent Rubinetti - The Music of 3Blue1Brown - 16 Hypothesis.mp3": null,
+        "11_not_limited_by.m4a": null,
+        "08_so_how_do_we.m4a": null,
+        "VitalikQuote.mp3": null,
+        "10_a_visual_way.m4a": null,
+        "11_a_universal_language.m4a": null,
+        "06_vitalik_put_it_best.m4a": null,
+        "01_as_most_of_us.m4a": null,
+        "04_a_new_culture.m4a": null,
+        "13_if_you_are.m4a": null,
+        "Vincent Rubinetti - The Music of 3Blue1Brown - 13 Resonance.mp3": null,
+        "12_by_upgrading_our_capacity.m4a": null,
+        "02_never_before.m4a": null,
+        "DreamSongUI": {
+          "styles.css": null,
+          "update_submodules.py": null,
+          "README.md": null,
+          "linearFlowCanvas.js": null,
+          "media": {
+            "David.png": null,
+            "CentralisedUnderstanding.gif": null,
+            "VitalikQuote.gif": null,
+            "Web3Emerging.gif": null,
+            "UniversalLanguage.gif": null,
+            "ClarityBehindComplexity.gif": null,
+            "UniversalMovement.gif": null,
+            "Web2Disintegrating.gif": null,
+            "ExistentialFriction.gif": null,
+            "DecentralisingUnderstanding.gif": null,
+            "examples": {},
+            "media/examples": {
+              "TheGardenAndTheMachine_fps30.0.mp4": null,
+              "ManMachineNature.gif": null,
+              "CentralizationDecentralizationCycle.gif": null,
+              "NoosphereAndBiosphere.gif": null,
+              "FourthTurningPendulum.gif": null,
+              "TaylorExpansion.gif": null,
+              "StoryMediatesRelationship.mp4": null,
+              "Synergy.gif": null,
+              "ComplicatedVsComplex.png": null,
+              "TheSpiral.gif": null,
+              "StoryOfEmergence.gif": null
+            }
+          }
+        }
+      }
+    }
   },
   "DreamSongUI": {},
+  "media": {},
   "parent_directory": "LiminalConsultingWeb3"
 }

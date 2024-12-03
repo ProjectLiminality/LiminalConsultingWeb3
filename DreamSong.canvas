@@ -9,7 +9,7 @@
 		{"id":"b7b75acb83510ca0","type":"file","file":"LiminalConsultingWeb3/media/UniversalLanguage.gif","x":-413,"y":640,"width":400,"height":225},
 		{"id":"aeec4ae913dd4567","type":"file","file":"LiminalConsultingWeb3/media/UniversalMovement.gif","x":-413,"y":940,"width":400,"height":225},
 		{"id":"91ab9b3ea2d7cc87","type":"file","file":"LiminalConsultingWeb3/media/DecentralisingUnderstanding.gif","x":-413,"y":1240,"width":400,"height":225},
-		{"id":"a711852218380f67","type":"file","file":"LiminalConsultingWeb3/media/David.png","x":-413,"y":1540,"width":400,"height":400},
+		{"id":"a711852218380f67","type":"file","file":"LiminalConsultingWeb3/media/David.png","x":-413,"y":1540,"width":400,"height":225},
 		{"id":"ce2b25e33c8225d1","type":"text","text":"As most of us can feel by now, we are living through an unprecedented period in human history.\n\nNever before have our collective challenges seemed more daunting.\n\nAnd our dreams of a more beautiful world seemed more within reach.","x":80,"y":-1160,"width":400,"height":225},
 		{"id":"d3d000cff7e4f4f9","type":"text","text":"As the era of centralisation is coming to an end, with our top-down control structures slowly but surely disintegrating under their own weight.","x":80,"y":-860,"width":400,"height":225},
 		{"id":"0aff1c5fb46ea627","type":"text","text":"A new culture has emerged around the idea of Web3.\n\nSeeking to direct this enormous potential towards a more beautiful and decentralised future.","x":80,"y":-560,"width":400,"height":225},
@@ -19,7 +19,7 @@
 		{"id":"61c67ef92cff6277","type":"text","text":"A universal language for a universal movement.\n\nNot limited by superficial differences in location or cultural background.\n\nBut united by the greater cause of serving all of mankind.","x":80,"y":940,"width":400,"height":225},
 		{"id":"64f84b3ac1dc6e69","type":"text","text":"By upgrading our capacity to communicate these profound ideas with clarity, we can effectively widen the circle of understanding and thus unleash this movement's full potential in bringing about the more beautiful world our hearts know is possible.","x":80,"y":1240,"width":400,"height":225},
 		{"id":"1e7b759dde934ad0","type":"text","text":"If you are holding a piece of this puzzle that has the potential to change the world but as of now is not being widely understood as such:\n\nI would love to help you communicate the unique innovation you are bringing into this space so it can naturally attract the minds and resources that will help you make it a reality.","x":80,"y":1540,"width":400,"height":225},
-		{"id":"1eca30cf765adb6a","type":"text","text":"So, how do we address this issue?","x":80,"y":40,"width":400,"height":225}
+		{"id":"9d6f08d5fc83b227","type":"text","text":"So, how do we address this issue?","x":80,"y":40,"width":400,"height":225}
 	],
 	"edges":[
 		{"id":"44fe373fd34d2c99","fromNode":"54c0add8171b52b2","fromSide":"bottom","toNode":"93a6cb2225989ea3","toSide":"top"},
@@ -40,6 +40,6 @@
 		{"id":"e4be5b0430e83f61","fromNode":"aeec4ae913dd4567","fromSide":"right","toNode":"61c67ef92cff6277","toSide":"left","toEnd":"none"},
 		{"id":"45d3b257bd9268a9","fromNode":"91ab9b3ea2d7cc87","fromSide":"right","toNode":"64f84b3ac1dc6e69","toSide":"left","toEnd":"none"},
 		{"id":"6e346e7f6aa50246","fromNode":"a711852218380f67","fromSide":"right","toNode":"1e7b759dde934ad0","toSide":"left","toEnd":"none"},
-		{"id":"13d52701ded7d430","fromNode":"53393dd8cd1fdae2","fromSide":"right","toNode":"1eca30cf765adb6a","toSide":"left","toEnd":"none"}
+		{"id":"24edac4c9dc29d8f","fromNode":"53393dd8cd1fdae2","fromSide":"right","toNode":"9d6f08d5fc83b227","toSide":"left","toEnd":"none"}
 	]
 }
