@@ -1,11 +1,5 @@
-const mainContainer = document.body; // Use the body as the main container
-mainContainer.style.display = 'flex';
-mainContainer.style.flexDirection = 'column';
-mainContainer.style.alignItems = 'center'; // Center the content horizontally
-
-const canvasContainer = document.createElement('div');
-canvasContainer.id = 'canvas-container';
-mainContainer.appendChild(canvasContainer);
+// Get the existing canvas container from the DOM
+const canvasContainer = document.getElementById('canvas-container');
 
 // Function to fetch the directory listing and get the parent directory
 async function fetchParentDirectory() {
