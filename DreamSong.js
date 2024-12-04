@@ -245,46 +245,8 @@ function camelToTitleCase(camelCase) {
   return result.charAt(0).toUpperCase() + result.slice(1);
 }
 
-// Function to initialize the header and title
-async function initializeHeader() {
-  const parentDirectory = await fetchParentDirectory();
-  if (parentDirectory) {
-    const title = camelToTitleCase(parentDirectory);
-    document.title = title;
-
-    // Create a new header container
-    const headerContainer = document.createElement('div');
-    headerContainer.id = 'header-container';
-    headerContainer.style.textAlign = 'center'; // Center the content
-    headerContainer.style.marginBottom = '200px'; // Add margin to the bottom
-    headerContainer.style.width = '100%'; // Ensure the container takes full width
-
-    // Create and append the header
-    const header = document.createElement('h1');
-    header.textContent = title;
-    header.style.color = 'white'; // Set the header text color to white
-    header.style.fontSize = '4em'; // Set the header font size
-    headerContainer.appendChild(header);
-
-    // Create and append the image
-    const img = document.createElement('img');
-    img.src = `${parentDirectory}.png`;
-    img.style.maxWidth = '50%'; // Ensure the image does not exceed the container width
-    img.style.display = 'block'; // Ensure the image is displayed as a block element
-    img.style.margin = '0 auto'; // Center the image
-    headerContainer.appendChild(img);
-
-    // Insert the header container before the canvas container
-    mainContainer.insertBefore(headerContainer, canvasContainer);
-
-    return parentDirectory;
-  } else {
-    console.error('Parent directory not found in directory listing');
-  }
-}
-
 // Initialize the rendering process
-initializeHeader().then(parentDirectory => {
+fetchParentDirectory().then(parentDirectory => {
   if (parentDirectory) {
     fetchCanvasData(parentDirectory);
   }
