@@ -51,20 +51,20 @@ body {
 @media (max-width: 500px) {
   .container {
     flex-direction: column !important;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
   }
 
   .media {
     flex: 1;
     max-width: 90%;
-    margin: 20px 0;
+    margin: 10px 0;
     order: 1;
   }
 
   .text {
     flex: 1;
     max-width: 90%;
-    margin: 20px 0;
+    margin: 10px 0;
     order: 2;
   }
 }
