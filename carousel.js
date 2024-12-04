@@ -34,7 +34,7 @@ class Carousel {
     section.className = 'examples-section';
     
     const title = document.createElement('h2');
-    title.textContent = 'Examples';
+    title.textContent = 'More Ideas Brought To Life';
     
     const carouselContainer = document.createElement('div');
     carouselContainer.className = 'carousel-container';
