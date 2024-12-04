@@ -71,18 +71,14 @@
 
 .testimonials-carousel-button {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
+  top: 0;
+  width: 33.33%;
+  height: 100%;
+  background: transparent;
   border: none;
-  padding: 1rem;
   cursor: pointer;
   z-index: 10;
-}
-
-.testimonials-carousel-button:hover {
-  background: rgba(0, 0, 0, 0.8);
+  color: transparent;
 }
 
 .testimonials-carousel-button.prev {
