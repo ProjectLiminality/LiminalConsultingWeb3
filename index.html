@@ -21,17 +21,20 @@
       position: relative;
       z-index: 1;
     }
-    #canvas-container {
+    header {
       order: 1;
     }
-    #examples-container {
+    #canvas-container {
       order: 2;
     }
-    #testimonials-container {
+    #examples-container {
       order: 3;
     }
-    #contact-section {
+    #testimonials-container {
       order: 4;
+    }
+    #contact-section {
+      order: 5;
     }
     #contact-section {
       text-align: center;
@@ -69,12 +72,12 @@
   </style>
 </head>
 <body>
-  <header style="text-align: center; margin-bottom: 50px; width: 100%; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 2rem; position: relative; top: 0;">
-    <h1 style="color: white; font-size: 4em; margin-bottom: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Liminal Consulting</h1>
-    <h2 style="color: white; font-size: 2em; margin-bottom: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Decentralising Web3 Insights</h2>
-    <img src="LiminalConsultingWeb3.png" style="max-width: 80%; width: auto; height: auto; display: block; margin: 0 auto; object-fit: contain;" alt="Liminal Consulting Web3">
-  </header>
   <div class="main-wrapper">
+    <header style="text-align: center; margin-bottom: 50px; width: 100%; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 2rem; position: relative; top: 0;">
+      <h1 style="color: white; font-size: 4em; margin-bottom: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Liminal Consulting</h1>
+      <h2 style="color: white; font-size: 2em; margin-bottom: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Decentralising Web3 Insights</h2>
+      <img src="LiminalConsultingWeb3.png" style="max-width: 80%; width: auto; height: auto; display: block; margin: 0 auto; object-fit: contain;" alt="Liminal Consulting Web3">
+    </header>
     <div id="canvas-container"></div>
     <div id="examples-container"></div>
     <div id="testimonials-container"></div>
