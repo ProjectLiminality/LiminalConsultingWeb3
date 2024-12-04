@@ -34,15 +34,14 @@ body {
 
 .media {
   flex: 1;
-  max-width: 50%;
+  max-width: 45%;
   object-fit: contain;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 0 20px;
 }
 
 .text {
-  flex: 0 0 500px; /* Fixed width for readability */
-  max-width: 600px;
+  flex: 1;
+  max-width: 45%;
   padding: 10px;
   color: white;
   text-align: left;
