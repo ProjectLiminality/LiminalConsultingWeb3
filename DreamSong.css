@@ -48,6 +48,27 @@ body {
   font-size: 17px;
 }
 
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column !important;
+    margin-bottom: 80px;
+  }
+
+  .media {
+    flex: 1;
+    max-width: 90%;
+    margin: 20px 0;
+    order: 1;
+  }
+
+  .text {
+    flex: 1;
+    max-width: 90%;
+    margin: 20px 0;
+    order: 2;
+  }
+}
+
 /* New styles for fixing image height and text container */
 .standalone-media {
   display: block;
