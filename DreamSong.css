@@ -48,7 +48,7 @@ body {
   font-size: 17px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
   .container {
     flex-direction: column !important;
     margin-bottom: 80px;
