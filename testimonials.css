@@ -35,13 +35,16 @@
 }
 
 .testimonials-carousel-item {
-  min-width: 33.33%;
+  min-width: 33.333333%;
+  flex: 0 0 33.333333%;
   display: flex;
   justify-content: center;
   align-items: center;
   opacity: 0.5;
   transform: scale(0.5);
   transition: all 0.5s ease-in-out;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 
 .testimonials-carousel-item.active {
