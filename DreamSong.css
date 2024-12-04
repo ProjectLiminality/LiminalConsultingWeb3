@@ -24,25 +24,19 @@ body {
 .container {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  margin-bottom: 0px;
+  align-items: center;
+  margin-bottom: 75px;
   flex-direction: row;
   max-width: 95%;
   margin-left: auto;
   margin-right: auto;
-  min-height: 0;
-  height: min-content;
 }
 
 .media {
   flex: 2;
   max-width: 60%;
   object-fit: contain;
-  margin: 0;
-  height: auto;
-  display: block;
-  min-height: 0;
-  align-self: flex-start;
+  margin: 0 20px;
 }
 
 .text {
@@ -57,24 +51,20 @@ body {
 @media (max-width: 600px) {
   .container {
     flex-direction: column !important;
-    margin-bottom: 0;
-    padding: 0;
-    gap: 0;
+    margin-bottom: 0px;
   }
 
   .media {
     flex: 1;
     max-width: 90%;
-    margin: 0;
-    padding: 0;
+    margin: 0px 0;
     order: 1;
   }
 
   .text {
     flex: 1;
     max-width: 90%;
-    margin: 0;
-    padding: 0;
+    margin: 0px 0;
     order: 2;
   }
 }
@@ -92,7 +82,7 @@ body {
   margin: auto; /* Center the text container */
   justify-content: center;
   align-items: center;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   flex-direction: column;
 }
 
