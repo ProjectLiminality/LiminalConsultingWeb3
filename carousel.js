@@ -1,6 +1,6 @@
 class Carousel {
   constructor(containerId) {
-    this.mediaFiles = [
+    const originalFiles = [
       { src: 'media/examples/CentralizationDecentralizationCycle.gif', alt: 'Centralization Decentralization Cycle' },
       { src: 'media/examples/ComplicatedVsComplex.png', alt: 'Complicated Vs Complex' },
       { src: 'media/examples/FourthTurningPendulum.gif', alt: 'Fourth Turning Pendulum' },
@@ -13,6 +13,9 @@ class Carousel {
       { src: 'media/examples/TheGardenAndTheMachine_fps30.0.mp4', alt: 'The Garden And The Machine' },
       { src: 'media/examples/TheSpiral.gif', alt: 'The Spiral' }
     ];
+    
+    // Append first two items to the end
+    this.mediaFiles = [...originalFiles, originalFiles[0], originalFiles[1]];
     
     this.container = document.getElementById(containerId);
     this.createCarouselStructure();
@@ -114,12 +117,23 @@ class Carousel {
   }
 
   next() {
-    this.currentIndex = (this.currentIndex + 1) % this.totalItems;
+    // If we're at the third-to-last item (which is the last original item)
+    if (this.currentIndex === this.totalItems - 3) {
+      // Jump back to the beginning
+      this.currentIndex = 0;
+    } else {
+      this.currentIndex = (this.currentIndex + 1) % this.totalItems;
+    }
     this.updateCarousel();
   }
 
   prev() {
-    this.currentIndex = (this.currentIndex - 1 + this.totalItems) % this.totalItems;
+    if (this.currentIndex === 0) {
+      // Jump to the last original item
+      this.currentIndex = this.totalItems - 3;
+    } else {
+      this.currentIndex = (this.currentIndex - 1 + this.totalItems) % this.totalItems;
+    }
     this.updateCarousel();
   }
 

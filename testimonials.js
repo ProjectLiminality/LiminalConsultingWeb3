@@ -1,11 +1,14 @@
 class TestimonialsCarousel {
   constructor(containerId) {
-    this.mediaFiles = [
+    const originalFiles = [
       { src: 'media/testimonials/TestimonialDavid.png', alt: 'Testimonial 1' },
       { src: 'media/testimonials/TestimonialDavid.png', alt: 'Testimonial 2' },
       { src: 'media/testimonials/TestimonialDavid.png', alt: 'Testimonial 3' }
       // Add more testimonials as needed
     ];
+    
+    // Append first two items to the end
+    this.mediaFiles = [...originalFiles, originalFiles[0], originalFiles[1]];
     
     this.container = document.getElementById(containerId);
     this.createCarouselStructure();
@@ -102,12 +105,23 @@ class TestimonialsCarousel {
   }
 
   next() {
-    this.currentIndex = (this.currentIndex + 1) % this.totalItems;
+    // If we're at the third-to-last item (which is the last original item)
+    if (this.currentIndex === this.totalItems - 3) {
+      // Jump back to the beginning
+      this.currentIndex = 0;
+    } else {
+      this.currentIndex = (this.currentIndex + 1) % this.totalItems;
+    }
     this.updateCarousel();
   }
 
   prev() {
-    this.currentIndex = (this.currentIndex - 1 + this.totalItems) % this.totalItems;
+    if (this.currentIndex === 0) {
+      // Jump to the last original item
+      this.currentIndex = this.totalItems - 3;
+    } else {
+      this.currentIndex = (this.currentIndex - 1 + this.totalItems) % this.totalItems;
+    }
     this.updateCarousel();
   }
 
