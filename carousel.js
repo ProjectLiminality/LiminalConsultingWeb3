@@ -29,7 +29,6 @@ class Carousel {
     this.totalItems = this.items.length;
     
     this.setupEventListeners();
-    this.startAutoPlay();
   }
 
   createCarouselStructure() {
@@ -88,6 +87,7 @@ class Carousel {
   setupEventListeners() {
     this.prevButton.addEventListener('click', () => this.prev());
     this.nextButton.addEventListener('click', () => this.next());
+    // Auto-play disabled
   }
 
   updateCarousel() {
@@ -137,9 +137,7 @@ class Carousel {
     this.updateCarousel();
   }
 
-  startAutoPlay() {
-    setInterval(() => this.next(), 10000); // Change slide every 10 seconds
-  }
+  // Auto-play disabled
 }
 
 // Initialize carousel when DOM is loaded

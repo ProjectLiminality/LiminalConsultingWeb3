@@ -22,7 +22,6 @@ class TestimonialsCarousel {
     this.totalItems = this.items.length;
     
     this.setupEventListeners();
-    this.startAutoPlay();
   }
 
   createCarouselStructure() {
@@ -76,6 +75,7 @@ class TestimonialsCarousel {
   setupEventListeners() {
     this.prevButton.addEventListener('click', () => this.prev());
     this.nextButton.addEventListener('click', () => this.next());
+    // Auto-play disabled
   }
 
   updateCarousel() {
@@ -125,9 +125,7 @@ class TestimonialsCarousel {
     this.updateCarousel();
   }
 
-  startAutoPlay() {
-    setInterval(() => this.next(), 10000); // Change slide every 10 seconds
-  }
+  // Auto-play disabled
 }
 
 // Initialize testimonials carousel when DOM is loaded
