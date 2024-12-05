@@ -45,7 +45,7 @@ body {
   padding: 10px;
   color: white;
   text-align: left;
-  font-size: 17px;
+  font-size: 25.5px; /* Increased by 50% from 17px */
 }
 
 @media (max-width: 600px) {
