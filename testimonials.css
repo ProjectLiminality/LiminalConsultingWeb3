@@ -22,24 +22,21 @@
 .testimonials-carousel-container {
   position: relative;
   width: 100%;
-  max-width: 1800px;
+  max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
   box-sizing: border-box;
-  display: flex; /* Added to help with centering */
-  justify-content: center; /* Center the carousel container */
 }
 
 .testimonials-carousel {
   display: flex;
   transition: transform 0.5s ease-in-out;
-  transform: translateX(-45%); /* Adjusted to match new item width */
-  margin: 0 auto; /* Center the carousel */
+  transform: translateX(-33.33%);
 }
 
 .testimonials-carousel-item {
-  min-width: 45%; /* Increased from 30% for larger items */
-  flex: 0 0 45%;
+  min-width: 33.333333%;
+  flex: 0 0 33.333333%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,11 +70,10 @@
   height: auto;
 }
 
-
 .testimonials-carousel-button {
   position: absolute;
   top: 0;
-  width: 27.5%; /* Adjusted from 33.33% to account for larger central item */
+  width: 33.33%;
   height: 100%;
   background: transparent;
   border: none;

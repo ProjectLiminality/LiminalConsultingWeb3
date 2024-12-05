@@ -79,17 +79,17 @@ class TestimonialsCarousel {
   }
 
   updateCarousel() {
-    const offset = -(this.currentIndex * 45) - 45;  // Added extra offset to center active item
+    const offset = -(this.currentIndex * 33.33);
     this.carousel.style.transform = `translateX(${offset}%)`;
     
     // Reset all items
     this.items.forEach((item) => {
       item.classList.remove('active', 'prev', 'next');
-      item.style.transform = 'scale(0.6)';  // Adjusted for better contrast between active/inactive
+      item.style.transform = 'scale(0.5)';
       item.style.opacity = '0.5';
     });
     
-    // Set active item
+    // Set active item (shifted two positions right)
     const activeIndex = (this.currentIndex + 1) % this.totalItems;
     this.items[activeIndex].classList.add('active');
     this.items[activeIndex].style.transform = 'scale(1)';
