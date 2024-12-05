@@ -11,6 +11,25 @@
   <script src="carousel.js" defer></script>
   <script src="testimonials.js" defer></script>
   <style>
+    /* CSS Reset and Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      font-size: 16px; /* Base font size */
+    }
+
+    body {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    /* Main wrapper styles */
     .main-wrapper {
       width: 100vw;
       max-width: 100%;
@@ -96,8 +115,8 @@
 <body>
   <div class="main-wrapper">
     <header style="text-align: center; margin-bottom: 50px; width: 100%; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 2rem; position: relative; top: 0;">
-      <h1 style="color: white; font-size: 4em; margin-bottom: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Liminal Consulting</h1>
-      <h2 style="color: white; font-size: 2em; margin-bottom: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Decentralising Web3 Insights</h2>
+      <h1 style="color: white; font-size: 4rem; margin-bottom: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Liminal Consulting</h1>
+      <h2 style="color: white; font-size: 2rem; margin-bottom: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Decentralising Web3 Insights</h2>
       <img src="LiminalConsultingWeb3.png" style="max-width: 80%; width: auto; height: auto; display: block; margin: 0 auto; object-fit: contain;" alt="Liminal Consulting Web3">
     </header>
     <div id="canvas-container"></div>
