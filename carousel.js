@@ -81,19 +81,6 @@ class Carousel {
     section.appendChild(title);
     section.appendChild(carouselContainer);
     this.container.appendChild(section);
-    
-    // Create and append the examples separator
-    const separator = document.getElementById('examples-separator');
-    if (!separator) {
-      const newSeparator = document.createElement('div');
-      newSeparator.id = 'examples-separator';
-      const separatorImg = document.createElement('img');
-      separatorImg.src = 'media/elements/Seperator.png';
-      separatorImg.alt = 'Separator';
-      separatorImg.className = 'section-separator';
-      newSeparator.appendChild(separatorImg);
-      this.container.parentNode.insertBefore(newSeparator, this.container.nextSibling);
-    }
   }
 
   setupEventListeners() {

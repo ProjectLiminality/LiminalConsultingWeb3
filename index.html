@@ -23,6 +23,16 @@
       z-index: 1;
       overflow-x: hidden;
     }
+      
+    #examples-container::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 2px;
+      margin: 2rem 0;
+      background: url('media/elements/Seperator.png') no-repeat center center;
+      background-size: 100% auto;
+    }
     .section-separator {
       width: 100%;
       height: auto;
@@ -96,9 +106,6 @@
       <img src="media/elements/Seperator.png" alt="Separator" class="section-separator">
     </div>
     <div id="examples-container"></div>
-    <div id="examples-separator">
-      <img src="media/elements/Seperator.png" alt="Separator" class="section-separator">
-    </div>
     <div id="testimonials-container"></div>
   </div>
 
