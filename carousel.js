@@ -6,11 +6,11 @@ class Carousel {
       { src: 'media/examples/FourthTurningPendulum.gif', alt: 'Fourth Turning Pendulum' },
       { src: 'media/examples/ManMachineNature.gif', alt: 'Man Machine Nature' },
       { src: 'media/examples/NoosphereAndBiosphere.gif', alt: 'Noosphere And Biosphere' },
-      { src: 'media/examples/StoryMediatesRelationship.mp4', alt: 'Story Mediates Relationship' },
+      //{ src: 'media/examples/StoryMediatesRelationship.mp4', alt: 'Story Mediates Relationship' },
       { src: 'media/examples/StoryOfEmergence.gif', alt: 'Story Of Emergence' },
       { src: 'media/examples/Synergy.gif', alt: 'Synergy' },
       { src: 'media/examples/TaylorExpansion.gif', alt: 'Taylor Expansion' },
-      { src: 'media/examples/TheGardenAndTheMachine_fps30.0.mp4', alt: 'The Garden And The Machine' },
+      //{ src: 'media/examples/TheGardenAndTheMachine.mp4', alt: 'The Garden And The Machine' },
       { src: 'media/examples/TheSpiral.gif', alt: 'The Spiral' }
     ];
     
