@@ -22,7 +22,7 @@
 .carousel-container {
   position: relative;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1500px;  /* Increased from 1200px by 25% */
   margin: 0 auto;
   overflow: hidden;
   box-sizing: border-box;
@@ -41,7 +41,7 @@
   justify-content: center;
   align-items: center;
   opacity: 0.5;
-  transform: scale(0.5);
+  transform: scale(0.625);  /* Increased from 0.5 by 25% */
   transition: all 0.5s ease-in-out;
   box-sizing: border-box;
   padding: 0 10px;
@@ -49,13 +49,13 @@
 
 .carousel-item.active {
   opacity: 1;
-  transform: scale(1);
+  transform: scale(1.25);  /* Increased from 1.0 by 25% */
 }
 
 .carousel-item.prev,
 .carousel-item.next {
   opacity: 0.5;
-  transform: scale(0.5);
+  transform: scale(0.625);  /* Increased from 0.5 by 25% */
 }
 
 .media-container {
