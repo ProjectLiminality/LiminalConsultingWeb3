@@ -45,7 +45,7 @@ body {
   padding: 10px;
   color: white;
   text-align: left;
-  font-size: 48px; /* Increased for better readability */
+  font-size: 48px !important; /* Force this size */
 }
 
 @media (max-width: 600px) {
