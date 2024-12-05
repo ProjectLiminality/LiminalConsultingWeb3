@@ -79,13 +79,13 @@ class TestimonialsCarousel {
   }
 
   updateCarousel() {
-    const offset = -(this.currentIndex * 50);  // Increased from 33.33 to 50 for larger sizing
+    const offset = -(this.currentIndex * 45);  // Adjusted to match new item width
     this.carousel.style.transform = `translateX(${offset}%)`;
     
     // Reset all items
     this.items.forEach((item) => {
       item.classList.remove('active', 'prev', 'next');
-      item.style.transform = 'scale(0.75)';  // Increased from 0.5 to 0.75 for larger inactive items
+      item.style.transform = 'scale(0.6)';  // Adjusted for better contrast between active/inactive
       item.style.opacity = '0.5';
     });
     

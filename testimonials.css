@@ -22,7 +22,7 @@
 .testimonials-carousel-container {
   position: relative;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1800px; /* Increased from 1200px for larger overall size */
   margin: 0 auto;
   overflow: hidden;
   box-sizing: border-box;
@@ -35,8 +35,8 @@
 }
 
 .testimonials-carousel-item {
-  min-width: 30%;
-  flex: 0 0 30%;
+  min-width: 45%; /* Increased from 30% for larger items */
+  flex: 0 0 45%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,7 +74,7 @@
 .testimonials-carousel-button {
   position: absolute;
   top: 0;
-  width: 33.33%;
+  width: 27.5%; /* Adjusted from 33.33% to account for larger central item */
   height: 100%;
   background: transparent;
   border: none;
