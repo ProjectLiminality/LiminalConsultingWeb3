@@ -79,7 +79,7 @@ class TestimonialsCarousel {
   }
 
   updateCarousel() {
-    const offset = -(this.currentIndex * 45);  // Adjusted to match new item width
+    const offset = -(this.currentIndex * 45) - 45;  // Added extra offset to center active item
     this.carousel.style.transform = `translateX(${offset}%)`;
     
     // Reset all items

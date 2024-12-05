@@ -22,16 +22,19 @@
 .testimonials-carousel-container {
   position: relative;
   width: 100%;
-  max-width: 1800px; /* Increased from 1200px for larger overall size */
+  max-width: 1800px;
   margin: 0 auto;
   overflow: hidden;
   box-sizing: border-box;
+  display: flex; /* Added to help with centering */
+  justify-content: center; /* Center the carousel container */
 }
 
 .testimonials-carousel {
   display: flex;
   transition: transform 0.5s ease-in-out;
-  transform: translateX(-33.33%);
+  transform: translateX(-45%); /* Adjusted to match new item width */
+  margin: 0 auto; /* Center the carousel */
 }
 
 .testimonials-carousel-item {
