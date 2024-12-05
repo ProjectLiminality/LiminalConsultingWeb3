@@ -92,7 +92,7 @@ class TestimonialsCarousel {
     // Set active item (shifted two positions right)
     const activeIndex = (this.currentIndex + 1) % this.totalItems;
     this.items[activeIndex].classList.add('active');
-    this.items[activeIndex].style.transform = 'scale(1.25)';
+    this.items[activeIndex].style.transform = 'scale(1.2)';
     this.items[activeIndex].style.opacity = '1';
     
     // Set prev item
