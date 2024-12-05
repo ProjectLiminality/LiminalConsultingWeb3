@@ -23,13 +23,14 @@
       z-index: 1;
       overflow-x: hidden;
     }
-    .separator-1 {
+    .section-separator {
       width: 100%;
-      order: 3.5;
+      height: auto;
+      margin: 2rem 0;
     }
-    .separator-2 {
-      width: 100%;
+    #examples-separator {
       order: 4.5;
+      width: 100%;
     }
     header {
       order: 1;
@@ -92,13 +93,11 @@
     <div id="contact-section">
       <h3>Work With Me:</h3>
       <p><img src="media/contact/Mail.png" alt="Email" style="height: 20px; vertical-align: middle; margin-right: 10px;"><a href="mailto:consulting@liminality.space">consulting@liminality.space</a></p>
-    </div>
-    <div class="separator-1" style="order: 3.5;">
-      <img src="media/elements/Seperator.png" alt="Separator" style="width: 100%; height: auto;">
+      <img src="media/elements/Seperator.png" alt="Separator" class="section-separator">
     </div>
     <div id="examples-container"></div>
-    <div class="separator-2" style="order: 4.5;">
-      <img src="media/elements/Seperator.png" alt="Separator" style="width: 100%; height: auto;">
+    <div id="examples-separator">
+      <img src="media/elements/Seperator.png" alt="Separator" class="section-separator">
     </div>
     <div id="testimonials-container"></div>
   </div>
