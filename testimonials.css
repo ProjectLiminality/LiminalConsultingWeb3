@@ -22,7 +22,7 @@
 .testimonials-carousel-container {
   position: relative;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1800px;  /* Increased from 1200px by 50% */
   margin: 0 auto;
   overflow: hidden;
   box-sizing: border-box;
