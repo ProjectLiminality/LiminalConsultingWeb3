@@ -141,5 +141,7 @@ class Carousel {
 
 // Initialize carousel when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-  new Carousel('examples-container');
+  const carousel = new Carousel('examples-container');
+  // Trigger initial update
+  carousel.updateCarousel();
 });

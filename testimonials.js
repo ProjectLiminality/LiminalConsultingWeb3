@@ -130,5 +130,7 @@ class TestimonialsCarousel {
 
 // Initialize testimonials carousel when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-  new TestimonialsCarousel('testimonials-container');
+  const testimonials = new TestimonialsCarousel('testimonials-container');
+  // Trigger initial update
+  testimonials.updateCarousel();
 });
