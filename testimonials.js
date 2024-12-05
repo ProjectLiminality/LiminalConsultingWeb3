@@ -79,13 +79,13 @@ class TestimonialsCarousel {
   }
 
   updateCarousel() {
-    const offset = -(this.currentIndex * 33.33);
+    const offset = -(this.currentIndex * 50);  // Increased from 33.33 to 50 for larger sizing
     this.carousel.style.transform = `translateX(${offset}%)`;
     
     // Reset all items
     this.items.forEach((item) => {
       item.classList.remove('active', 'prev', 'next');
-      item.style.transform = 'scale(0.5)';
+      item.style.transform = 'scale(0.75)';  // Increased from 0.5 to 0.75 for larger inactive items
       item.style.opacity = '0.5';
     });
     
