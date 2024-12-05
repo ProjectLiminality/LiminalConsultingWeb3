@@ -22,7 +22,7 @@
 .carousel-container {
   position: relative;
   width: 100%;
-  max-width: 1500px;  /* Increased from 1200px by 25% */
+  max-width: 1800px;  /* Increased to match testimonials carousel */
   margin: 0 auto;
   overflow: hidden;
   box-sizing: border-box;
