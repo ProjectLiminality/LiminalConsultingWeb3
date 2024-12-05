@@ -148,7 +148,7 @@ function renderLinearFlow(nodes, parentDirectory) {
         } else if (subNode.type === 'text') {
           const textElement = document.createElement('div');
           textElement.className = 'text'; // Add text class
-          textElement.style.fontSize = '38px'; // Set larger font size
+          textElement.style.fontSize = '48px'; // Increase font size further
           textElement.innerHTML = convertMarkdownToHTML(subNode.text); // Convert markdown to HTML
           combinedDiv.appendChild(textElement);
         }
@@ -163,7 +163,7 @@ function renderLinearFlow(nodes, parentDirectory) {
       } else if (node.type === 'text') {
         const textElement = document.createElement('div');
         textElement.className = 'text'; // Add text class
-        textElement.style.fontSize = '38px'; // Set larger font size
+        textElement.style.fontSize = '48px'; // Increase font size further
         textElement.innerHTML = convertMarkdownToHTML(node.text); // Convert markdown to HTML
         const textContainer = document.createElement('div');
         textContainer.className = 'text-container';
