@@ -49,7 +49,7 @@
 
 .carousel-item.active {
   opacity: 1;
-  transform: scale(1.25);  /* Increased from 1.0 by 25% */
+  transform: scale(1.5);  /* Increased from 1.0 by 50% */
 }
 
 .carousel-item.prev,
