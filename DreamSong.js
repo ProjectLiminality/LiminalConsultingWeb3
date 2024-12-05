@@ -162,6 +162,7 @@ function renderLinearFlow(nodes, parentDirectory) {
       } else if (node.type === 'text') {
         const textElement = document.createElement('div');
         textElement.className = 'text'; // Add text class
+        textElement.style.fontSize = '38px'; // Increase text size by 50% from 25.5px
         textElement.innerHTML = convertMarkdownToHTML(node.text); // Convert markdown to HTML
         const textContainer = document.createElement('div');
         textContainer.className = 'text-container';
