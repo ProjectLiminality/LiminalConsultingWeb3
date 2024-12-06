@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1.0">
   <title>Liminal Consulting - Decentralising Web3 Insights</title>
   <link rel="stylesheet" href="DreamSong.css">
   <link rel="stylesheet" href="carousel.css">
@@ -22,6 +22,12 @@
       -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
       font-size: 25.6px; /* 16px * 1.6 to match 160% zoom */
+    }
+
+    @media (max-width: 768px) {
+      html {
+        font-size: 16px; /* Smaller base font size for mobile */
+      }
     }
 
     body {
