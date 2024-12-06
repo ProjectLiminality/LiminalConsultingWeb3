@@ -2,8 +2,10 @@ class TestimonialsCarousel {
   constructor(containerId) {
     const originalFiles = [
       { src: 'media/testimonials/TestimonialMichel.png', alt: 'Testimonial Michel' },
+      { src: 'media/testimonials/TestimonialZak.png', alt: 'Testimonial Zak' },
       { src: 'media/testimonials/TestimonialJeremy.png', alt: 'Testimonial Jeremy' },
       { src: 'media/testimonials/TestimonialMichel.png', alt: 'Testimonial Michel' },
+      { src: 'media/testimonials/TestimonialZak.png', alt: 'Testimonial Zak' },
       { src: 'media/testimonials/TestimonialJeremy.png', alt: 'Testimonial Jeremy' }
       // Add more testimonials as needed
     ];
