@@ -9,7 +9,7 @@ class Carousel {
       //{ src: 'media/examples/StoryMediatesRelationship.mp4', alt: 'Story Mediates Relationship' },
       { src: 'media/examples/StoryOfEmergence.gif', alt: 'Story Of Emergence', link: 'https://github.com/InterfaceGuy/StoryOfEmergence' },
       { src: 'media/examples/Synergy.gif', alt: 'Synergy', link: 'https://github.com/InterfaceGuy/Synergy' },
-      { src: 'media/examples/TaylorExpansion.gif', alt: 'Taylor Expansion' },
+      { src: 'media/examples/TaylorExpansion.gif', alt: 'Taylor Expansion', link: 'https://github.com/InterfaceGuy/TaylorExpansion' },
       //{ src: 'media/examples/TheGardenAndTheMachine.mp4', alt: 'The Garden And The Machine' },
       { src: 'media/examples/TheSpiral.gif', alt: 'The Spiral' }
     ];
