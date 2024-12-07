@@ -1,10 +1,10 @@
 class TestimonialsCarousel {
   constructor(containerId) {
     const originalFiles = [
-      { src: 'media/testimonials/TestimonialMichel.png', alt: 'Testimonial Michel' },
+      { src: 'media/testimonials/TestimonialMichel.png', alt: 'Testimonial Michel', link: 'https://p2pfoundation.net' },
       { src: 'media/testimonials/TestimonialZak.png', alt: 'Testimonial Zak', link: 'https://consilienceproject.org' },
       { src: 'media/testimonials/TestimonialJeremy.png', alt: 'Testimonial Jeremy', link: 'https://www.liberatingstructures.com' },
-      { src: 'media/testimonials/TestimonialMichel.png', alt: 'Testimonial Michel' },
+      { src: 'media/testimonials/TestimonialMichel.png', alt: 'Testimonial Michel', link: 'https://p2pfoundation.net' },
       { src: 'media/testimonials/TestimonialZak.png', alt: 'Testimonial Zak', link: 'https://consilienceproject.org' },
       { src: 'media/testimonials/TestimonialJeremy.png', alt: 'Testimonial Jeremy', link: 'https://www.liberatingstructures.com' }
       // Add more testimonials as needed
