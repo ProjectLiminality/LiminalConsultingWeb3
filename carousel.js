@@ -11,7 +11,7 @@ class Carousel {
       { src: 'media/examples/Synergy.gif', alt: 'Synergy', link: 'https://github.com/InterfaceGuy/Synergy' },
       { src: 'media/examples/TaylorExpansion.gif', alt: 'Taylor Expansion', link: 'https://github.com/InterfaceGuy/TaylorExpansion' },
       //{ src: 'media/examples/TheGardenAndTheMachine.mp4', alt: 'The Garden And The Machine' },
-      { src: 'media/examples/TheSpiral.gif', alt: 'The Spiral' }
+      { src: 'media/examples/TheSpiral.gif', alt: 'The Spiral', link: 'https://github.com/InterfaceGuy/TheSpiral' }
     ];
     
     // Append first two items to the end
