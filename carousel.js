@@ -5,7 +5,7 @@ class Carousel {
       { src: 'media/examples/ComplicatedVsComplex.png', alt: 'Complicated Vs Complex', link: 'https://interfaceguy.github.io/ComplicatedVsComplex/' },
       { src: 'media/examples/FourthTurningPendulum.gif', alt: 'Fourth Turning Pendulum', link: 'https://github.com/InterfaceGuy/FourthTurning' },
       { src: 'media/examples/ManMachineNature.gif', alt: 'Man Machine Nature', link: 'https://github.com/InterfaceGuy/ManMachineNature' },
-      { src: 'media/examples/NoosphereAndBiosphere.gif', alt: 'Noosphere And Biosphere' },
+      { src: 'media/examples/NoosphereAndBiosphere.gif', alt: 'Noosphere And Biosphere', link: 'https://github.com/InterfaceGuy/NoosphereAndBiosphere' },
       //{ src: 'media/examples/StoryMediatesRelationship.mp4', alt: 'Story Mediates Relationship' },
       { src: 'media/examples/StoryOfEmergence.gif', alt: 'Story Of Emergence', link: 'https://github.com/InterfaceGuy/StoryOfEmergence' },
       { src: 'media/examples/Synergy.gif', alt: 'Synergy', link: 'https://github.com/InterfaceGuy/Synergy' },
