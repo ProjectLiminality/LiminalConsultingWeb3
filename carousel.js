@@ -60,9 +60,24 @@ class Carousel {
       const mediaContainer = document.createElement('div');
       mediaContainer.className = 'media-container';
       
-      const img = document.createElement('img');
-      img.src = file.src;
-      img.alt = file.alt;
+      if (file.link) {
+        const link = document.createElement('a');
+        link.href = file.link;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        
+        const img = document.createElement('img');
+        img.src = file.src;
+        img.alt = file.alt;
+        
+        link.appendChild(img);
+        mediaContainer.appendChild(link);
+      } else {
+        const img = document.createElement('img');
+        img.src = file.src;
+        img.alt = file.alt;
+        mediaContainer.appendChild(img);
+      }
       
       const title = document.createElement('p');
       title.className = 'media-title';
@@ -102,9 +117,24 @@ class Carousel {
     
     // Set active item (shifted two positions right)
     const activeIndex = (this.currentIndex + 1) % this.totalItems;
-    this.items[activeIndex].classList.add('active');
-    this.items[activeIndex].style.transform = 'scale(1)';
-    this.items[activeIndex].style.opacity = '1';
+    const activeItem = this.items[activeIndex];
+    activeItem.classList.add('active');
+    activeItem.style.transform = 'scale(1)';
+    activeItem.style.opacity = '1';
+    
+    // Enable/disable click events based on active state
+    this.items.forEach((item, index) => {
+      const link = item.querySelector('a');
+      if (link) {
+        if (index === activeIndex) {
+          link.style.pointerEvents = 'auto';
+          link.style.cursor = 'pointer';
+        } else {
+          link.style.pointerEvents = 'none';
+          link.style.cursor = 'default';
+        }
+      }
+    });
     
     // Set prev item
     const prevIndex = activeIndex === 0 ? this.totalItems - 1 : activeIndex - 1;
