@@ -4,7 +4,7 @@ class Carousel {
       { src: 'media/examples/CentralizationDecentralizationCycle.gif', alt: 'Centralization Decentralization Cycle', link: null },
       { src: 'media/examples/ComplicatedVsComplex.png', alt: 'Complicated Vs Complex', link: 'https://interfaceguy.github.io/ComplicatedVsComplex/' },
       { src: 'media/examples/FourthTurningPendulum.gif', alt: 'Fourth Turning Pendulum', link: null },
-      { src: 'media/examples/ManMachineNature.gif', alt: 'Man Machine Nature' },
+      { src: 'media/examples/ManMachineNature.gif', alt: 'Man Machine Nature', link: 'https://github.com/InterfaceGuy/ManMachineNature' },
       { src: 'media/examples/NoosphereAndBiosphere.gif', alt: 'Noosphere And Biosphere' },
       //{ src: 'media/examples/StoryMediatesRelationship.mp4', alt: 'Story Mediates Relationship' },
       { src: 'media/examples/StoryOfEmergence.gif', alt: 'Story Of Emergence' },
