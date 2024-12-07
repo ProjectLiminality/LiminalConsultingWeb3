@@ -83,7 +83,6 @@ class Carousel {
       title.className = 'media-title';
       title.textContent = file.alt;
       
-      mediaContainer.appendChild(img);
       mediaContainer.appendChild(title);
       item.appendChild(mediaContainer);
       carousel.appendChild(item);
