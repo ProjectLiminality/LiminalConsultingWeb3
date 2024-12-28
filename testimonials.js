@@ -8,7 +8,7 @@ class TestimonialsCarousel {
       { src: 'media/testimonials/TestimonialJeff.png', alt: 'Testimonial Jeff', link: 'https://mycofi.art' },
       { src: 'media/testimonials/TestimonialMichel.png', alt: 'Testimonial Michel', link: 'https://p2pfoundation.net' },
       { src: 'media/testimonials/TestimonialZak.png', alt: 'Testimonial Zak', link: 'https://consilienceproject.org' },
-      { src: 'media/testimonials/TestimonialJeremy.png', alt: 'Testimonial Jeremy', link: 'https://www.liberatingstructures.com' }
+      { src: 'media/testimonials/TestimonialJeremy.png', alt: 'Testimonial Jeremy', link: 'https://www.liberatingstructures.com' },
       { src: 'media/testimonials/TestimonialJames.png', alt: 'Testimonial James', link: 'https://www.weco.io' },
       { src: 'media/testimonials/TestimonialJeff.png', alt: 'Testimonial Jeff', link: 'https://mycofi.art' },
       // Add more testimonials as needed
