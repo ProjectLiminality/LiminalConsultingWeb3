@@ -26,6 +26,7 @@
   margin: 0 auto;
   overflow: hidden;
   box-sizing: border-box;
+  padding-top: 100px;  /* Add padding to move items down */
 }
 
 .testimonials-carousel {
