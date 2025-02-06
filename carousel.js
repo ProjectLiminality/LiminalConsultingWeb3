@@ -2,7 +2,7 @@ class Carousel {
   constructor(containerId) {
     const originalFiles = [
       { src: 'media/examples/CentralizationDecentralizationCycle.gif', alt: 'Centralization Decentralization Cycle', link: 'https://github.com/InterfaceGuy/CentralizationDecentralizationCycle' },
-      { src: 'media/examples/ComplicatedVsComplex.png', alt: 'Complicated Vs Complex', link: 'https://interfaceguy.github.io/ComplicatedVsComplex/' },
+      { src: 'media/examples/ComplicatedVsComplex.png', alt: 'Complicated Vs Complex', link: 'https://projectliminality.github.io/ComplicatedVsComplex/' },
       { src: 'media/examples/FourthTurningPendulum.gif', alt: 'Fourth Turning Pendulum', link: 'https://github.com/InterfaceGuy/FourthTurning' },
       { src: 'media/examples/ManMachineNature.gif', alt: 'Man Machine Nature', link: 'https://github.com/InterfaceGuy/ManMachineNature' },
       { src: 'media/examples/NoosphereAndBiosphere.gif', alt: 'Noosphere And Biosphere', link: 'https://github.com/InterfaceGuy/NoosphereAndBiosphere' },
